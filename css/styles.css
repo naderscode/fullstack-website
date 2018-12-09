@@ -89,6 +89,17 @@ body {
   border: 2px solid #3F0C1F;
 }
 
+#menu-tile, #specials-tile, #map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+
+
+
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   .container .jumbotron {
